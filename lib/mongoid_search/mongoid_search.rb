@@ -120,7 +120,6 @@ module Mongoid::Search
 
     def index_keywords!
       set(:_keywords, set_keywords)
-      # update_attribute(:_keywords, set_keywords)
     end
 
     def set_keywords
